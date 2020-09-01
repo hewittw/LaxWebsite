@@ -91,7 +91,24 @@ blockquote {
   font family: verdana;
   margin: 50px;
   padding: 30px;
-  font-size: 150%
+  font-size: 150%;
+}
+
+ul {
+  color: white;
+  font family: verdana;
+  margin: 100px;
+  padding: 30px;
+  font-size: 300%;
+  list-style-type: circle;
+}
+
+ol {
+  color: white;
+  font family: verdana;
+  margin: 100px;
+  padding: 30px;
+  font-size: 300%;
 }
 
 a:link{
