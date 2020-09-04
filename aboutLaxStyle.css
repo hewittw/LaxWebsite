@@ -61,7 +61,7 @@ p {
 
 }
 
-table, td {
+td {
   text-align: center;
   color: white;
   font family: verdana;
@@ -71,6 +71,18 @@ table, td {
   border: 1px solid white;
   border-collapse: collapse;
 
+}
+
+table {
+  text-align: center;
+  color: white;
+  font family: verdana;
+  padding: 5px;
+  font-size: 150%;
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
