@@ -6,10 +6,27 @@
   <title>All About Lacrosse</title>
   <link rel="stylesheet" href="aboutLaxStyle.css" /> <!-- do this with solo tags-->
 
-  <meta http-equiv="refresh" content="300"/>   <!-- CHECK USED META RIGHT ?????????????????????////////////?-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- GET THIS WORKING WITH THE TABLE -->
-  <meta name="description" content="Lacrosse Information">
-  <meta name="author" content="Hewitt Watkins">
+  <meta http-equiv="refresh" content="300" />   <!-- CHECK USED META RIGHT ?????????????????????////////////?-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- GET THIS WORKING WITH THE TABLE -->
+  <meta name="description" content="Lacrosse Information" />
+  <meta name="author" content="Hewitt Watkins" />
+  <meta charset="UTF-8" />    <!-- is this a good one to choose / create problems with url encoding??????????????????????????????????????????????????? -->
+
+  <style>
+    .menu {
+      table {
+        background-color: rgb(0,255,255);
+      }
+      td {
+        text-align: center;
+        font-size: 50%;
+      }
+      a {
+        text-align: center;
+        font-size: 50%
+      }
+    }
+  </style>
 
 </head>
 
@@ -21,46 +38,68 @@
     <!-- title -->
     <h1>All About Lacrosse</h1>
 
-    <a href="#C4">Jump to Chapter 4</a>
+    <!-- Website Menu -->
+    <table style = "width:80%" class="menu"> <!-- get the menu class thing to work so the menu is styled properly -->
 
-    <!-- menu -->
+      <tr>
+          <td>
+            <a href="#HL">History of Lacrosse</a>
+          </td>
+          <td>
+            <a href="#PL">Pro Lacrosse</a>
+          </td>
+          <td>
+            <a href="#LG">About Lax Gear</a>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <a href="#CL">Colllegiate Lacrosse</a>
+          </td>
+          <td>
+            <a href="#HR">Highlight Reels</a>
+          </td>
+          <td>
+            <a href="#GG">Gif Gallery</a>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <a href="#LW">Lax Website of the Week</a>
+          </td>
+          <td>
+            <a href="#SE">Custom Search Engine</a>
+          </td>
+      </tr>
+    </table>
+
     <a href="allAboutBoxLacorsse.html" target="_self" title="Box Lacrosse Page">Learn About Box Lacrosse</a>
 
 
     <!-- section about history of lax -->
-    <h2>History of Lacrosse</h2>
-
+    <h2 id="HL">History of Lacrosse</h2>
 
     <a href="https://en.wikipedia.org/wiki/Lacrosse" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://www.uslaxmagazine.com/sites/default/files/images/articles/evolution-stick-vincent-ricasio-art-of-lax.jpg"
       alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
-
     <blockquote cite="https://en.wikipedia.org/wiki/Lacrosse"> <!-- style all bloquotes like this and fix the rest of this one --> <!-- focus on tab levels -->
-
-      <p>
-
+      <p>    <!-- ok that THESE ARE EXACT QUOTES ???????????????????????????????????????????????????????????????????????????????????????/ -->
         "Lacrosse is a team sport played with a lacrosse stick and a lacrosse ball. It is the oldest organized sport in
         North America, [1] with its origins in a tribal game played by the indigenous peoples of the Eastern Woodlands and
         by various other indigenous peoples of North America.[2] The game was extensively modified reducing the violence
         by European colonizers to create its current collegiate and professional form.[3]
-
       </p>
       <p>
-
         The modern sport is governed by World Lacrosse and is the only international sport organization to recognize First Nations
         bands and Native American tribes as sovereign nations.[4] The organization hosts the World Lacrosse Championship for men,
         the Women's Lacrosse World Cup, the World Indoor Lacrosse Championship for box lacrosse, and the Under-19 World Lacrosse
         Championships for both men and women.[5] Each is held every four years.[5] Lacrosse at the Summer Olympics has been
         contested at two editions of the Summer Olympic Games, 1904 and 1908.[6][7][8] It was also held as a demonstration
         event at the 1928, 1932, and 1948 Summer Olympics.[9][10]
-
       </p>
       <p>
-
         Players use the head of the lacrosse stick to carry, pass, catch, and shoot the ball into the goal. The sport has
         four versions that have different sticks, fields, rules and equipment: field lacrosse, women's lacrosse, box
         lacrosse and intercrosse. The men's games, field lacrosse (outdoor) and box lacrosse (indoor), are contact sports
@@ -68,22 +107,18 @@
         outdoors and does not allow body contact but does allow stick to stick contact.[12] The only protective gear required
         for women players is eyegear, while goalies wear helmets and protective pads. Intercrosse is a mixed-gender non-contact
         sport played indoors that uses an all-plastic stick and a softer ball.[13]"
-
       </p>
       <p>
-
         <small><strong>Click the image above to continue reading Wikipedia's Lacrosse Page.</strong></small>
-
       </p>
 
       <img src="https://i.pinimg.com/originals/62/1f/c5/621fc5a70d70faff02b77b155c43b07c.jpg" alt="Smiley face"
       style="float:right;width:100px;height:100px;" />
-
     </blockquote>
 
 
     <!-- section about pro lacrosse -->
-    <h2>Pro Lacrosse</h2>
+    <h2 id="PL">Pro Lacrosse</h2>
 
 
     <!-- subsection about first pro lacrosse league - MLL -->
@@ -91,7 +126,6 @@
 
 
     <a href="https://en.wikipedia.org/wiki/Major_League_Lacrosse" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXsAAACFCAMAAACND6jkAAAA1VBMVEX////sHCQuMaYsL6VLTbEfI6K
       cndHrAAD96+v6y83rABH1lpjsDhn97/DsEx7rBhTrAAj0iYzxbHAlKKQpLKUbH6IUGaEgJKP+9PT709T84uP/+vr6+v31lZj3r7HuOkD82tvuQE
       bycXXvVVntLjXj4/Lz8/oJEJ/4s7XzgoX5xcb4urzvTFHtJi3xYmZ2d8HOz+f1oaOoqdXo6PRQUrJNT7BhY7fa2+7ExeNCRa6JismRkszwW1+7u
@@ -149,23 +183,17 @@
       u8pe8LXys+wqJxjF/8j2K7V/EZyHZzAu8KVTX7NNJbKjScLAFR+REWQsPJEhDVU23m59yWSPBajV/mVFv6t/neL/rVUO0X3uzzcQk1+I+JWd0CH
       TLxfqWxuoQaW9xE1VQgL4Gj8WJTQP64in/iEimEGprS+NTFP3GJFBU1+yxBgFWq5bvaJQiweoTFkmqLoNG1mS9cUm0RWD4taquxBBlbVqn214cl
       6Lh/1pvyf/R7B4FntwZ1AAAAAElFTkSuQmCC" alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
-
     <blockquote cite="https://en.wikipedia.org/wiki/Major_League_Lacrosse">
-
       <p>
-
         "Major League Lacrosse (MLL) is a men's field lacrosse league consisting of six active teams in the United States.
         The league's inaugural season was in 2001, making MLL the oldest professional field lacrosse league in North America.
         [1] Teams have played anywhere from ten to 16 games in a summertime regular season, with a four-team playoff for the
         championship trophy, the Steinfeld Trophy, named after founder Jake Steinfeld. League attendance peaked at 6,417 in
         2011[2] and the 2019 average was 4,587.
-
       </p>
       <p>
-
         The league is made up of the Chesapeake Bayhawks and New York Lizards (originally the Baltimore Bayhawks and Long
         Island Lizards), who competed in the first three championship games, with the Lizards winning two. The Philadelphia
         Barrage returned to the league in 2020 after an 11-seven hiatus. After moving from Bridgeport to Philadelphia, the
@@ -177,128 +205,95 @@
         three championships in nine appearances. The Connecticut Hammerheads are the league's truly youngest franchise,
         and were set to play at Rafferty Stadium near Bridgeport in 2020 before the COVID-19 pandemic forced a
         shortened, quarantined season.
-
       </p>
       <p>
-
         The current champion is the Boston Cannons, who defeated the Denver Outlaws at Navy-Marine Corps Memorial Stadium
         in Annapolis, Maryland following a COVID-19-shortened 2020 season."
-
       </p>
       <p>
-
         <small><strong>Click the image above to continue reading Wikipedia's Lacrosse Page.</strong></small>
-
       </p>
 
       <img src="https://i.pinimg.com/originals/f4/b6/bb/f4b6bbf075d533e858187415fd6fd957.jpg" alt="Smiley face"
       style="float:right;width:100px;height:100px;" />
-
     </blockquote>
 
 
     <!-- subsection about second pro lacrosse league - PLL -->
     <h3>PLL - Premier League Lacrosse</h3>
 
-
     <a href="https://en.wikipedia.org/wiki/Premier_Lacrosse_League" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://upload.wikimedia.org/wikipedia/en/9/99/Premier_Lacrosse_League_logo.png"
       alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
 
     <blockquote cite="https://en.wikipedia.org/wiki/Premier_Lacrosse_League">
-
       <p>
-
         "Premier Lacrosse League (PLL) is an American professional field lacrosse league. The league's inaugural
         season debuted on June 1, 2019, and included a 14-week tour-based schedule taking place in 12 major-market
         cities.[1] The league was founded by the American professional lacrosse player Paul Rabil and his brother
         Mike Rabil. Investors include The Chernin Group, The Raine Group and Joe Tsai.[2]"
-
       </p>
       <p>
-
         <small><strong>Click the image above to continue reading Wikipedia's Lacrosse Page.</strong></small>
-
       </p>
-
-
 
       <img src="https://i.pinimg.com/originals/62/1f/c5/621fc5a70d70faff02b77b155c43b07c.jpg" alt="Smiley face"
       style="float:right;width:100px;height:100px;" />    <!-- why is this one to low but others are all gooood ?????????????????????????????????? -->
-
     </blockquote>
 
     <!-- PLL point stat section -->
     <h4>PLL 2020 Point Stats</h4>
 
     <table style = "width:80%"> <!-- figure out how to get in line with text above or centered -->
-
       <tr>
-
           <th>Name</th>
           <th># Points</th>
           <th>Ranking</th>
-
       </tr>
       <tr>
-
           <td>Matt Rambo</td>
           <td>25</td>
           <td>1</td>
-
       </tr>
       <tr>
-
           <td>Zedd Williams</td>
           <td>23</td>
           <td>2</td>
-
       </tr>
       <tr>
-
           <td>Jordan Wolf</td>
           <td>18</td>
           <td>3</td>
-
       </tr>
       <tr>
-
           <td>Grant Ament</td>
           <td>17</td>
           <td>4</td>
-
       </tr>
       <tr>
-
           <td>Justin Guterding</td>
           <td>16</td>
           <td>5</td>
-
       </tr>
       <tr>
-
           <td>Rob Pannell</td>
           <td>15</td>
           <td>6</td>
-
       </tr>
-
     </table>
+
     <br/><br/>
 
 
     <!-- All About Lacrosse Pads/Stuff/Brands  -->
-    <h2>All About Lax Gear</h2>
+    <h2 id="LG">All About Lax Gear</h2>
 
     <!-- Lax Pads List - unordered -->
     <h3>Lacrosse Pads Checklist</h3>
 
     <ul>
-
       <li>Helmet</li>
       <li>Elbow Pads</li>
       <li>Shoulder Pads</li>
@@ -306,38 +301,31 @@
       <li>Mouth Guard</li>
       <li>Cleats</li>
       <li>Lacrosse Stick</li>
-
     </ul>
 
     <!-- Lax Brand list - ordered -->
     <h3>Best Lacrosse Pad Brands</h3>
 
     <ol>
-
       <li>ECD Lacrosse</li>
       <li>Nike</li>
       <li>Maverick</li>
       <li>STX</li>
-
     </ol>
 
     <!-- make one last list that uses images as the description-->
 
     <!-- section about collegiate lacrosse -->
-    <h2>Collegiate Lacrosse</h2>
+    <h2 id="CL">Collegiate Lacrosse</h2>
 
     <a href="https://en.wikipedia.org/wiki/College_lacrosse" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://www.logolynx.com/images/logolynx/49/498e2d1df246163bdce80c1e9f30c8ed.jpeg"
       alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
 
     <blockquote cite="https://en.wikipedia.org/wiki/College_lacrosse">
-
       <p>
-
         "College lacrosse is played by student-athletes at colleges and universities in the United States and Canada.
         In both countries, men's field lacrosse and women's lacrosse are played at both the varsity and club levels.
         College lacrosse in Canada is sponsored by the Canadian University Field Lacrosse Association (CUFLA) and
@@ -346,76 +334,54 @@
         Association (NJCAA) and National Association of Intercollegiate Athletics (NAIA). There are also university
         lacrosse programs in the United Kingdom sponsored by British Universities and Colleges Sport (BUCS) and programs
         in Japan.[1]
-
       </p>
       <p>
-
         In the U.S., as of the 2019–20 academic year, there were 74 NCAA-sanctioned Division I men's lacrosse teams, 75
         Division II men's lacrosse teams, and 248 Division III men's lacrosse teams. There are 117 Division I women's
         lacrosse teams, 114 Division II women's lacrosse teams, and 293 Division III women's lacrosse teams. There were
         also 21 men's programs and 11 women's programs at two-year community colleges organized by the National Junior
         College Athletic Association (NJCAA) and a growing number of National Association of Intercollegiate Athletics
         (NAIA) four-year small college programs.
-
       </p>
       <p>
-
         As of 2016–17, there were 184 collegiate men's club teams competing through the Men's Collegiate Lacrosse
         Association (MCLA), including most major universities in the United States without NCAA men's programs,
         organized into two divisions and ten conferences. Schools that feature an NCAA Division I FBS football team
         must play in Division 1, while most other teams compete in Division 2. There are 225 collegiate club teams
         for women organized by the Women's Collegiate Lacrosse Associates (WCLA)."
-
       </p>
       <p>
-
         <small><strong>Click the image above to continue reading Wikipedia's Lacrosse Page.</strong></small>
-
       </p>
 
       <img src="https://i.pinimg.com/originals/f4/b6/bb/f4b6bbf075d533e858187415fd6fd957.jpg" alt="Smiley face"
       style="float:right;width:100px;height:100px;" />
-
     </blockquote>
 
 
     <!-- section with links to highlight reels on youtube -->
-    <h2 id="C4">Highlight Reels <em>You Should Watch</em> &#8595;</h2>      <!-- how properly format this ??????????????????????????????????? -->
-
+    <h2 id="HR">Highlight Reels <em>You Should Watch</em> &#8595;</h2>      <!-- how properly format this ??????????????????????????????????? -->
 
     <a href="https://www.youtube.com/watch?v=C-uSqd1TnqA" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://img.youtube.com/vi/C-uSqd1TnqA/0.jpg" alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
-
 
     <a href="https://www.youtube.com/watch?v=hiSELoGmWlI" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://img.youtube.com/vi/hiSELoGmWlI/0.jpg" alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
-
 
     <a href="https://www.youtube.com/watch?v=BqALwMlT5ss" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://img.youtube.com/vi/BqALwMlT5ss/0.jpg" alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
-
     <a href="https://www.youtube.com/watch?v=LrIyb_jlgME" target="_blank" title="Lacrosse Wikipedia Page">
-
       <img src="https://img.youtube.com/vi/LrIyb_jlgME/0.jpg" alt="Evolution of Lacorsse Sticks Image" />
-
     </a>
 
 
     <!-- Gallery of cool lacrosse -->
-    <h2>
-
+    <h2 id="GG">
       <span style="color:rgb(155,0,0)">G</span><span style="color:rgb(0,155,0)">i</span><span style="color:rgb(0,0,155)">f</span> Gallery &#9734; <!-- look at formatting for this one!!!!!1 -->
-
     </h2>   <!-- ok to use bold here???? / ok formating here??????????????????????????????????????????????????? -->
 
     <img src="https://media.tenor.com/images/1b5da92b3def1834d051db9c72c04aed/tenor.gif" alt="lax gif" />
@@ -428,28 +394,24 @@
 
 
     <!-- Showing Lacrosse's Main Recruiting Website -->
-    <h2>Try Out LAX.COM - Center for Everything Lax</h2>
+    <h2 id="LW">Try Out LAX.COM - Center for Everything Lax</h2>
 
     <iframe src="https://www.lax.com/men/"
     style="border:none" name="insideLaxIFrame" title="Inside Lacrosse Website" height="500px" width="1200px"> <!-- NEED TO INDENT HERE????? -->
     </iframe>
 
     <p style="text-align:center">
-
       <a href="https://www.lax.com/men/" target="_blank" title="Lax.com Website">
         Click here to visit Lax.com  <!-- NEED TO INDENT HERE ?????????????????????????????????????????????????????/-->
       </a>
-
     </p>
 
     <!-- Lacrosse Custom Search Engine --> <!-- would this qualify as cool thing to work on?????? -->
-    <h2>Search More About Lacrosse with Our Custom Search Engine</h2>
+    <h2 id="SE">Search More About Lacrosse with Our Custom Search Engine</h2>
 
-    <div>
-
+    <div>  <!-- go into google api and double check that you have added all the websites you want it to search -->
       <script async src="https://cse.google.com/cse.js?cx=12c5c34a53e7d60bf"></script>
       <div class="gcse-search"></div>
-
     </div>
 
 
