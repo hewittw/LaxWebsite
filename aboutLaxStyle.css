@@ -4,18 +4,21 @@ body {
 
 h1 {
   color: blue;
-  font family: verdana;
-  border: 2px rgb(0,255,255);
+  font-family: "Times New Roman";
+  border: 10px rgb(0,155,155);
   margin: 50px;
   padding: 30px;
   background-color:rgb(0,255,255);
   font-size: 600%;
   text-align: center;
+  border-style: inset;
+  font-weight: normal;
+  font-style: normal;
 }
 
 h2 {
   color: blue;
-  font family: verdana;
+  font-family: "Times New Roman";
   border: 2px rgb(0,255,255);
   margin: 50px;
   padding: 30px;
@@ -26,7 +29,7 @@ h2 {
 
 h3 {
   color: blue;
-  font family: verdana;
+  font-family: "Times New Roman";
   border: 2px rgb(0,255,255);
   margin: 100px;
   padding: 25px;
@@ -36,7 +39,7 @@ h3 {
 
 h4 {
   color: blue;
-  font family: verdana;
+  font-family: "Times New Roman";
   border: 2px rgb(0,255,255);
   margin: 100px;
   padding: 25px;
@@ -46,7 +49,7 @@ h4 {
 
 pre {
   color: blue;
-  font family: verdana;
+  font-family: "Times New Roman";
   border: 2px rgb(0,255,255);
   margin: 50px;
   padding: 30px;
@@ -56,7 +59,7 @@ pre {
 
 p {
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 0px;
   font-size: 150%;
@@ -65,7 +68,7 @@ p {
 td {
   text-align: center;
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 5px;
   font-size: 150%;
@@ -76,7 +79,7 @@ td {
 table {
   text-align: center;
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   padding: 5px;
   font-size: 150%;
   border: 1px solid white;
@@ -88,7 +91,7 @@ table {
 th {
   text-align: center;
   color: rgb(0,255,255);
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 5px;
   font-size: 150%;
@@ -98,7 +101,7 @@ th {
 
 blockquote {
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 30px;
   font-size: 150%;
@@ -106,7 +109,7 @@ blockquote {
 
 ul {
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 100px;
   padding: 30px;
   font-size: 300%;
@@ -115,7 +118,7 @@ ul {
 
 ol {
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 100px;
   padding: 30px;
   font-size: 300%;
@@ -123,7 +126,7 @@ ol {
 
 a:link{
   color: white;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 30px;
   font-size: 150%;
@@ -132,7 +135,7 @@ a:link{
 
 a:visited{
   color: lightblue;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 30px;
   font-size: 150%;
@@ -141,7 +144,7 @@ a:visited{
 
 a:hover {
   color: purple;
-  font family: verdana;
+  font-family: "Times New Roman";
   margin: 50px;
   padding: 30px;
   font-size: 150%;
@@ -158,4 +161,50 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.75;
+}
+
+iframe:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1.0;
+}
+
+.menu {
+    background-color: rgb(0,255,255);
+    border: 0px;
+}
+
+.menu th {
+  text-align: center;
+  font-size: 300%;
+  border: 0px;
+  color: white
+}
+
+.menu td {
+  text-align: center;
+  font-size: 75%;
+  border: 0px;
+  padding: 15px;
+}
+
+.menu a:visited {
+  color: blue
+}
+
+.menu a:hover {
+  color: purple
+}
+
+.menu a:link {
+  color: blue
+}
+
+/* get this working */
+.boxHighlights img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
