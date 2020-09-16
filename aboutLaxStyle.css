@@ -5,8 +5,12 @@ body {
 h1 {
   color: blue;
   font-family: "Times New Roman";
-  border: 10px rgb(0,155,155);
-  margin: 50px;
+  border: 10px;
+  border-color: rgb(0,155,155);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 30px;
   background-color:rgb(0,255,255);
   font-size: 600%;
@@ -43,8 +47,11 @@ h4 {
   border: 2px rgb(0,255,255);
   margin: 100px;
   padding: 25px;
-  background-color:rgb(0,255,255);
+  background-color: rgb(0,255,255);
   font-size: 175%;
+  outline-style: solid;
+  outline-color: rgb(0,155,155);
+  outline-width: medium;
 }
 
 pre {
@@ -53,7 +60,7 @@ pre {
   border: 2px rgb(0,255,255);
   margin: 50px;
   padding: 30px;
-  background-color:rgb(0,255,255);
+  background-color: rgb(0,255,255);
   font-size: 200%;
 }
 
@@ -198,13 +205,18 @@ iframe:hover {
   color: purple
 }
 
-.menu a:link {
+.menu a:link { /* shoudl I be putting the a and stuff like that before the . or after??????????????????????????????????????????? */
   color: blue
 }
 
-/* get this working */
-.boxHighlights img {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+#boxLaxMenu {
+  background-color: rgb(0,105,105);
+}
+
+.boxBackground {  /* why did this not work when I had body their??????? ask dr. j ??????????????????????????????????????????????????? */
+      background-image: url('https://secureservercdn.net/198.71.233.129/fbb.f7d.myftpupload.com/wp-content/uploads/2016/12/nll-logo.jpg');
+      background-repeat: auto;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
 }
