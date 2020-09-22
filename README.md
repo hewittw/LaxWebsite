@@ -8,3 +8,4 @@ For the more advanced HTMl portion of this project, I focused on the look of my 
 For the html assignment, please grade my last commit on September the 10th. The commit number/code is: 9fa862f
 
 # VersionToGrade for CSS
+For the CSS assignment, please grade my last commit on September the 21st. The commit number/code is: 4c4e0ea556393f67ca48876d269d6dea917f1bdd
