@@ -2,8 +2,8 @@ body {
   background-color: black;
   color: white;
 }
-
-h1 { /* do some of the things this does with boostrap before turn in */
+/*
+h1 { /* do some of the things this does with boostrap before turn in
   color: blue;
   font-family: "Times New Roman", Times, serif;
   border: 10px;
@@ -24,7 +24,7 @@ h1 { /* do some of the things this does with boostrap before turn in */
 h2, h3, h4, h5 {
   color: rgb(0,255,255);
   font-family: "Times New Roman", Times, serif;
-  padding: 30px; /* do in bootstrap */
+  padding: 30px; /* do in bootstrap 
   background-color:rgb(0,105,105);
 }
 
@@ -32,3 +32,5 @@ a {
   color: white;
   font-family: "Times New Roman", Times, serif;
 }
+
+*/
