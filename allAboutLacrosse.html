@@ -32,63 +32,40 @@
 
       <!-- Title -->
 
-      <h1>  <!-- how get this centering thing workking ???????????????????????????????????????????????????????????????????????????????????????????????-->
-        <span class="border border-white">
-          <div class="mx-auto">
-            All About Lacrosse
-          </div>
-        </span>
-      </h1>
+      <h1 id="Title">All About Lacrosse</h1>
 
 
       <!-- bootstrap menu -->
-      <div class="btn-group">
-        <button type="button" class="btn btn-primary">
-          <a href="#HL">History of Lacrosse</a>
-        </button>
-        <button type="button" class="btn btn-primary">Samsung</button>
-        <div class="btn-group">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-             Sony
-          </button>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#Title">All About Lacrosse</a>
+
+        <!-- Dropdown 1-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Lacrosse Info Sections
+          </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Tablet</a>
-            <a class="dropdown-item" href="#">Smartphone</a>
+            <a class="dropdown-item" href="#HL">History of Lacrosse</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
           </div>
-        </div>
-      </div>
-
-      <ul class="list-group list-group-horizontal">
-        <li class="list-group-item">First item</li>
-        <li class="list-group-item">Second item</li>
-        <li class="list-group-item">Third item</li>
-        <li class="list-group-item">Fourth item</li>
-        <li class="list-group-item">
-          <button type="button" class="btn btn-primary">
-            <a href="#HL">History of Lacrosse</a>
-          </button>
         </li>
-      </ul>
 
+          <!-- Dropdown 2-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Other Pages
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
 
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark"> <!-- finish off the nav bar -->
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
-        </div>
+        </ul>
       </nav>
 
 
@@ -258,8 +235,6 @@
           <small><strong>Click the image above to continue reading Wikipedia's Lacrosse Page.</strong></small>
         </p>
 
-        <img src="https://i.pinimg.com/originals/62/1f/c5/621fc5a70d70faff02b77b155c43b07c.jpg" alt="Smiley face"
-          style="float:right;width:100px;height:100px;" />
       </blockquote>
 
       <!-- PLL point stat section -->
@@ -381,71 +356,89 @@
       <!-- Section with links to highlight reels on youtube -->
       <h2 id="HR">Highlight Reels <em>You Should Watch</em> &#8595;</h2>
 
-      <a href="https://www.youtube.com/watch?v=C-uSqd1TnqA" target="_blank" title="MLL Highlight Reels">
-        <img src="https://img.youtube.com/vi/C-uSqd1TnqA/0.jpg" alt="Thumbnail of MLL Highlight Reel" />
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=hiSELoGmWlI" target="_blank" title="PLL Highlight Reel">
-        <img src="https://img.youtube.com/vi/hiSELoGmWlI/0.jpg" alt="Thumbnail of PLL Highlight Reel" />
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=BqALwMlT5ss" target="_blank" title="2019 Lacrosse Highlight Reel">
-        <img src="https://img.youtube.com/vi/BqALwMlT5ss/0.jpg" alt="Thumbnail of 2019 Lacrosse Highlight Reel" />
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=LrIyb_jlgME" target="_blank" title="2019 Bishop's Lacrosse Highlight Reel">
-        <img src="https://img.youtube.com/vi/LrIyb_jlgME/0.jpg" alt="Thumbnail of Bishop's 2019 Lacrosse Highlight Reel" />
-      </a>
-
-
-      <!-- Gallery of cool lacrosse -->
-      <h2 id="GG">
-        <span style="color:rgb(155,0,0)">G</span>
-        <span style="color:rgb(0,155,0)">i</span>
-        <span style="color:rgb(0,0,155)">f</span>
-        Gallery &#9734; <!-- what does this do????????????????????????? -->
-      </h2>
-
-      <!-- Gif Gallery Carousel - GET WORKING GET WORKING PROPERLY GET WORKING PROPERLY GET WORKING PROPERLY -->
-      <div id="gifGalleryCarousel" class="carousel slide" data-ride="carousel">
+      <div id="youtubeVidCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators">
-          <li data-target="#gifGalleryCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#gifGalleryCarousel" data-slide-to="1"></li>
-          <li data-target="#gifGalleryCarousel" data-slide-to="2"></li>
+          <li data-target="#youtubeVidCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#youtubeVidCarousel" data-slide-to="1"></li>
+          <li data-target="#youtubeVidCarousel" data-slide-to="2"></li>
+          <li data-target="#youtubeVidCarousel" data-slide-to="3"></li>
         </ul>
 
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://media.tenor.com/images/1b5da92b3def1834d051db9c72c04aed/tenor.gif" alt="Lax gif" />
+            <a href="https://www.youtube.com/watch?v=C-uSqd1TnqA" target="_blank" title="MLL Highlight Reels">
+              <img src="https://img.youtube.com/vi/C-uSqd1TnqA/0.jpg" alt="Thumbnail of MLL Highlight Reel" class="mx-auto d-block" />
+            </a>
           </div>
           <div class="carousel-item">
-            <img src="https://media3.giphy.com/media/UW1dyzXfPs6K6GxxaM/giphy.gif" alt="Lax gif" />
+            <a href="https://www.youtube.com/watch?v=hiSELoGmWlI" target="_blank" title="PLL Highlight Reel">
+              <img src="https://img.youtube.com/vi/hiSELoGmWlI/0.jpg" alt="Thumbnail of PLL Highlight Reel" class="mx-auto d-block" />
+            </a>
           </div>
           <div class="carousel-item">
-            <img src="https://chumley.barstoolsports.com/wp-content/uploads/2019/08/12/garnsey-chaos-dive.gif" alt="Lax gif" />
+            <a href="https://www.youtube.com/watch?v=BqALwMlT5ss" target="_blank" title="2019 Lacrosse Highlight Reel">
+              <img src="https://img.youtube.com/vi/BqALwMlT5ss/0.jpg" alt="Thumbnail of 2019 Lacrosse Highlight Reel" class="mx-auto d-block" />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=LrIyb_jlgME" target="_blank" title="2019 Bishop's Lacrosse Highlight Reel">
+              <img src="https://img.youtube.com/vi/LrIyb_jlgME/0.jpg" alt="Thumbnail of Bishop's 2019 Lacrosse Highlight Reel" class="mx-auto d-block" />
+            </a>
           </div>
         </div>
 
         <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#gifGalleryCarousel" data-slide="prev">
+        <a class="carousel-control-prev" href="#youtubeVidCarousel" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#gifGalleryCarousel" data-slide="next">
+        <a class="carousel-control-next" href="#youtubeVidCarousel" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
 
       </div>
 
-      <img src="https://media.tenor.com/images/1b5da92b3def1834d051db9c72c04aed/tenor.gif" alt="Lax gif" />
-      <img src="https://media3.giphy.com/media/UW1dyzXfPs6K6GxxaM/giphy.gif" alt="Lax gif" />
-      <img src="https://chumley.barstoolsports.com/wp-content/uploads/2019/08/12/garnsey-chaos-dive.gif" alt="Lax gif" />
-      <img src="https://media0.giphy.com/media/StLKscHKOuXmQsx0si/giphy.gif" alt="Lax gif" />
-      <img src="https://media.giphy.com/media/JpLeNMFwwYeeWkLk5N/giphy.gif" alt="Lax gif" />
-      <img src="https://media2.giphy.com/media/5YqZS7Glhir182MciH/giphy.gif" alt="Lax gif" />
-      <img src="https://media1.tenor.com/images/ac5aaf2baf9530f48b32bd767a383ec1/tenor.gif?itemid=3317170" alt="Lax gif" />
 
+      <!-- Gallery of cool lacrosse gifs -->
+      <h2 id="GG">
+        <span style="color:rgb(155,0,0)">G</span>
+        <span style="color:rgb(0,155,0)">i</span>
+        <span style="color:rgb(0,0,155)">f</span>
+        Gallery &#9734;
+      </h2>
+
+      <img src="https://media.tenor.com/images/1b5da92b3def1834d051db9c72c04aed/tenor.gif" alt="Lax gif" class="mx-auto d-block"/>
+
+
+      <div class="row">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+          <img src="https://media1.tenor.com/images/ac5aaf2baf9530f48b32bd767a383ec1/tenor.gif?itemid=3317170" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media3.giphy.com/media/UW1dyzXfPs6K6GxxaM/giphy.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://chumley.barstoolsports.com/wp-content/uploads/2019/08/12/garnsey-chaos-dive.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media.giphy.com/media/JpLeNMFwwYeeWkLk5N/giphy.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media2.giphy.com/media/5YqZS7Glhir182MciH/giphy.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media1.tenor.com/images/ac5aaf2baf9530f48b32bd767a383ec1/tenor.gif?itemid=3317170" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media4.giphy.com/media/1Zqz7xwRXXkDIwCM40/giphy.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="https://media4.giphy.com/media/cn8G77pxa2klnJdlXy/giphy.gif" alt="Lax gif" class="img-fluid" />
+        </div>
+
+      </div>
 
 
       <!-- Showing Lacrosse's Main Recruiting Website -->
