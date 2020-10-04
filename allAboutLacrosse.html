@@ -35,23 +35,30 @@
       <h1 id="Title">All About Lacrosse</h1>
 
 
-      <!-- bootstrap menu -->
+      <!-- website menu -->
 
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#Title">All About Lacrosse</a>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"> <!-- fix so doesn't cover titles -->
+        <ul class="navbar-nav">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#Title">All About Lacrosse</a>
 
-        <!-- Dropdown 1-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Lacrosse Info Sections
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#HL">History of Lacrosse</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
+          <!-- Dropdown 1-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Lacrosse Info Sections
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#HL">History of Lacrosse</a>
+              <a class="dropdown-item" href="#PL">Pro Lacrosse</a>
+              <a class="dropdown-item" href="#LG">About Lax Gear</a>
+              <a class="dropdown-item" href="#CL">Collegiate Lacrosse</a>
+              <a class="dropdown-item" href="#HR">Highlight Reels</a>
+              <a class="dropdown-item" href="#GG">Gif Gallery</a>
+              <a class="dropdown-item" href="#LW">Lax Website of the Week</a>
+              <a class="dropdown-item" href="#FF">Lacrosse Fun Facts</a>
+              <a class="dropdown-item" href="#SE">Custom Search Engine</a>
+            </div>
+          </li>
 
           <!-- Dropdown 2-->
           <li class="nav-item dropdown">
@@ -59,73 +66,12 @@
               Other Pages
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="allAboutBoxLacorsse.html" target="_self" title="Box Lacrosse Page">Learn About Box Lacrosse</a>
             </div>
           </li>
 
         </ul>
       </nav>
-
-
-      <!-- Website Menu -->
-      <table style = "width:80%" class="menu">
-
-        <tr>
-          <th>Menu</th>
-        </tr>
-        <tr>
-            <td>
-              <a href="#HL">History of Lacrosse</a>
-            </td>
-            <td>
-              <a href="#PL">Pro Lacrosse</a>
-            </td>
-            <td>
-              <a href="#LG">About Lax Gear</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-              <a href="#CL">Collegiate Lacrosse</a>
-            </td>
-            <td>
-              <a href="#HR">Highlight Reels</a>
-            </td>
-            <td>
-              <a href="#GG">Gif Gallery</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-              <a href="#LW">Lax Website of the Week</a>
-            </td>
-            <td>
-              <a href="#SE">Custom Search Engine</a>
-            </td>
-            <td>
-              <a href="#FF">Lacrosse Fun Facts</a>
-            </td>
-        </tr>
-      </table>
-
-      <br /><br />
-
-      <table class="menu">
-        <tr>
-          <th>
-            Other Pages
-          </th>
-        </tr>
-        <tr>
-          <td>
-            <a href="allAboutBoxLacorsse.html" target="_self" title="Box Lacrosse Page">Learn About Box Lacrosse</a>
-          </td>
-        </tr>
-      </table>
-
-      <br /><br />
 
       <!-- Section about history of lax -->
       <h2 id="HL">History of Lacrosse</h2>
@@ -240,8 +186,8 @@
       <!-- PLL point stat section -->
       <h4>PLL 2020 Point Stats</h4>
 
-      <div class="table-hover table-dark">
-        <table style = "width:80%" class="table">
+      <div class="table-hover table-dark"> <!-- this is like doing margin on bottom. do this for all br tags !!!!!!!!!-->
+        <table class="table mb-5">
           <tr>
               <th>Name</th>
               <th># Points</th>
@@ -279,8 +225,6 @@
           </tr>
         </table>
       </div>
-
-      <br /><br />
 
 
       <!-- All About Lacrosse Pads/Stuff/Brands  -->
@@ -448,12 +392,11 @@
         style="border:none" name="insideLaxIFrame" title="Inside Lacrosse Website" height="500px" width="1200px">
       </iframe>
 
-      <p style="text-align:center">
+      <button type="button" class="btn btn-outline-info bg-dark">
         <a href="https://www.lax.com/men/" target="_blank" title="Lax.com Website">
           Click here to visit Lax.com
         </a>
-      </p>
-
+      </button>
 
       <!-- Lacrosse Fun Facts -->
       <h2 id="FF">Lacrosse Fun Facts</h2>
