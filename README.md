@@ -13,5 +13,5 @@ For the CSS assignment, please grade my last commit on September the 21st. The c
 # Boostrap4Info
 For the 5 elements of bootstrap that I experimented with I created a dismissible banner, I used buttons and added the button class to two links, I created an image carousal, I created 5 modals, and I used Boostrap 4 to enhance the look of the table on my all about field lacrosse page. For the grid of rows/columns part of this assignment, I added a grid to my gif gallery that arranges the gifs depending on the current screen size. For the navbar part of this assignment, I added two drop down menus in order to make the navbar 'cooler'. As recommend by the w3School tutorial, I also used css to add padding to all my headings linked on the navbar so that the navbar does not accidentally cover the headings.
 
-#VersionToGrade for Bootstrap4
+# VersionToGrade for Bootstrap4
 For the Boostrap 4 assignment, please grade my last commit on October the 4th. The commit number/code is: c8ba1b5109239e589d203fd6d7464a139072796b
