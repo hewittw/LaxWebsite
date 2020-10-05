@@ -2,3 +2,8 @@ body {
   background-color: black;
   color: white;
 }
+
+h2 {
+  padding-top:70px; /* w3School tutorial page on Scrollspy showed to do this
+                      so the nav-bar doesn't cover headings */
+}
