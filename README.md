@@ -15,3 +15,6 @@ For the 5 elements of bootstrap that I experimented with I created a dismissible
 
 # VersionToGrade for Bootstrap4
 For the Boostrap 4 assignment, please grade my last commit on October the 4th. The commit number/code is: c8ba1b5109239e589d203fd6d7464a139072796b
+
+# Rough Draft of Final Website
+At the moment, my website is in it's early stages still. I have spent a lot of time on the design and window sizing, but I still need to focus on aesthetics, colors, and adding all the content in. The current rough draft commit number/code is: a5fcbe515c824f67a4cd0e95c2c68890aa648338.
