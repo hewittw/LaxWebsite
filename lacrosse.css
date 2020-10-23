@@ -1,0 +1,72 @@
+/*
+
+To do list:
+
+-get the padding and margins on cards working
+-add colors to make things pop and highlight important info and Stuff
+-fix the stickytop part of nav bar
+-create second nav bar collapsable
+
+*/
+
+h1 {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 7px 7px 5px rgb(0,155,155);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(0,255,255);
+}
+
+h4 {
+  color: blue;
+  border: 2px rgb(0,255,255);
+  background-color: rgb(0,255,255);
+  font-size: 175%;
+  outline-style: solid;
+  outline-color: rgb(0,155,155);
+  outline-width: medium;
+}
+
+p {
+  color: white
+}
+
+img.homeImages {
+  opacity: 0.7;
+}
+
+.myCards {               /* check using padding and margins correctly */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(0,0,0, 0.5);   /* make cards on home page go to the very edge of border thingy and same with navbar */
+}
+
+#homePageBackground {
+  background-image: url(websiteBackground.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#homeStmt {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-shadow: 7px 7px 5px rgb(155,155,155);
+  color: white;
+}
+
+#fieldLacrosseBackground {
+  background-color: black;
+}
