@@ -20,3 +20,6 @@ For the Boostrap 4 assignment, please grade my last commit on October the 4th. T
 At the moment, my website is in it's early stages still. I have spent a lot of time on the design and window sizing, but I still need to focus on aesthetics, colors, and adding all the content in. The current rough draft commit number/code is: a5fcbe515c824f67a4cd0e95c2c68890aa648338.
 
 More recent rough draft number/code: b02a6e702fcda5bce33285420e58afa997fe7a7b
+
+# Final Draft of Final HTML Project
+Version to grade number/code is: 593a17f32eb5c70781cb48ff07314b39e279fab7
