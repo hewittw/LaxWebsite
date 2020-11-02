@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
 
-    <title>Lacrosse Resources</title>   <!-- maybe change this title and also maybe download all images ??????????????????????????? -->
+    <title>Lacrosse Resources</title>
 
     <meta http-equiv="refresh" content="300" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,13 +27,263 @@
 
   </head>
 
-  <body id="fieldLacrosseBackground">
+  <body class="laxBallBackground">
     <div class="container">
 
-      <h1>Resources Page</h1>
+      <!-- Website Nav Bar -->
+      <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark" >
+        <!-- NavBar Brand -->
+        <a class="navbar-brand" href="lacrosseHomePage.html">
+          <strong>All About Lacrosse</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible1Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsible1Navbar">
+          <ul class="navbar-nav">
+
+            <!-- Link 1-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="fieldLacrosse.html" id="navbardrop">
+                Field Lacrosse
+              </a>
+            </li>
+
+            <!-- Link 2-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="boxLacrosse.html" id="navbardrop">
+                Box Lacrosse
+              </a>
+            </li>
+
+            <!-- Link 3-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="lacrosseResources.html" id="navbardrop">
+                Lacrosse Resources
+              </a>
+            </li>
+
+            <!-- Link 4-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" style="color:rgb(238,132,255);"  href="IroquoisLax.html" id="navbardrop">
+                Iroquois Lax
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Lacrosse Resources NavBar -->
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top secondNavBar" >
+
+        <!-- NavBar Brand -->
+        <a class="navbar-brand" href="">Lacrosse Resources</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible2Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsible2Navbar">
+          <ul class="navbar-nav">
+
+            <!-- Link 1-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#LDC" id="navbardrop">
+                Lax.com
+              </a>
+            </li>
+
+            <!-- Link 2-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#LFF" id="navbardrop">
+                Lacrosse Fun Facts
+              </a>
+            </li>
+
+            <!-- Link 3-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#CSE" id="navbardrop">
+                Custom Search Engine
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Resources Page Title -->
+      <h1>Lacrosse Resources</h1>
+
+
+      <!--Lax website of the month -->
+      <div class="row">
+        <div class="col-12">
+          <h2 id="LDC">Try Out LAX.COM - Center for Everything Lax</h2>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.lax.com/men/"
+              style="border:none" name="insideLaxIFrame" title="Inside Lacrosse Website" >
+            </iframe>
+          </div>
+
+          <a href="https://www.lax.com/men/" class="btn btn-info mb-5" target="_blank" role="button">Click here to visit Lax.com</a>
+
+        </div>
+      </div>
+
+      <!-- Lacrosse Fun Facts -->
+      <h2 id="LFF">Lacrosse Fun Facts</h2>
+
+
+
+      <div class="row">
+        <div class="col-12 col-sm-3 myModals">
+          <!-- Fun Fact Modal 1 -->
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FF1">
+            Fun Fact #1
+          </button>
+
+          <!-- The Actual Modal -->
+          <div class="modal fade" id="FF1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- Modal's Header -->
+                <div class="modal-header bg-dark">
+                  <h4 class="modal-title">Fun Fact #1</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal's body -->
+                <div class="modal-body bg-dark">
+                  <p>Did you know lacrosse is played much more on the East Coast than the West Coast.</p>
+                </div>
+
+                <!-- Modal's footer -->
+                <div class="modal-footer bg-dark">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-3 myModals">
+          <!-- Fun Fact Modal 2 -->
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FF2">
+            Fun Fact #2
+          </button>
+
+          <!-- The Actual Modal -->
+          <div class="modal fade" id="FF2">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- Modal's Header -->
+                <div class="modal-header bg-dark">
+                  <h4 class="modal-title">Fun Fact #2</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal's body -->
+                <div class="modal-body bg-dark">
+                  <p>Lacrosse is one of the fastest growing sports in the United States.</p>
+                </div>
+
+                <!-- Modal's footer -->
+                <div class="modal-footer bg-dark">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 myModals">
+          <!-- Fun Fact Modal 3 -->
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FF3">
+            Fun Fact #3
+          </button>
+
+          <!-- The Actual Modal -->
+          <div class="modal fade" id="FF3">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- Modal's Header -->
+                <div class="modal-header bg-dark">
+                  <h4 class="modal-title">Fun Fact #3</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal's body -->
+                <div class="modal-body bg-dark">
+                  <p>'Greasers' are old lacrosse balls that are no longer sticky.</p>
+                </div>
+
+                <!-- Modal's footer -->
+                <div class="modal-footer bg-dark">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 myModals">
+          <!-- Fun Fact Modal 4 -->
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FF4">
+            Fun Fact #4
+          </button>
+
+          <!-- The Actual Modal -->
+          <div class="modal fade" id="FF4">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- Modal's Header -->
+                <div class="modal-header bg-dark">
+                  <h4 class="modal-title">Fun Fact #4</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal's body -->
+                <div class="modal-body bg-dark">
+                  <p>Goalie's sticks can have a shaft of any length.</p>
+                </div>
+
+                <!-- Modal's footer -->
+                <div class="modal-footer bg-dark">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Lacrosse Custom Search Engine -->
+      <h2 id="CSE">Search More About Lacrosse with Our Custom Search Engine</h2>
+
+
+      <div class="alert alert-info alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        Please try the search engine out :)
+      </div>
+
       <div>
-        this page will have the lax.com iframe, the lacrosse fun facts, and most notably the lacrosse custom search engine - add something
-        about the custom search engine to the main/home page too
+        <script async src="https://cse.google.com/cse.js?cx=12c5c34a53e7d60bf"></script>
+        <div class="gcse-search"></div>
       </div>
 
     </div>

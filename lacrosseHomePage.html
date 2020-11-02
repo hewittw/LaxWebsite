@@ -27,17 +27,22 @@
 
   </head>
 
-  <body id="homePageBackground">
+  <body class="laxBallBackground">
 
     <div class="container">
 
       <!-- Website Nav Bar -->
-      <div>
-        <nav class="navbar navbar-expand-sm sticky-top bg-dark navbar-dark" > <!-- make navbar as wide as cards -->
-          <ul class="navbar-nav">
-            <!-- NavBar Brand -->
-            <a class="navbar-brand" href="#Title">All About Lacrosse</a>  <!-- double check the brand links to the right thing -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top" >
+        <!-- NavBar Brand -->
+        <a class="navbar-brand" href="#Title">
+          <strong>All About Lacrosse</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible1Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="collapsible1Navbar">
+          <ul class="navbar-nav">
             <!-- Link 1-->
             <li class="nav-item dropdown">
               <a class="nav-link" href="fieldLacrosse.html" id="navbardrop">
@@ -59,37 +64,58 @@
               </a>
             </li>
 
-          </ul>
+            <!-- Link 4-->
+            <li class="nav-item dropdown">
+              <a class="nav-link" style="color:rgb(238,132,255);" href="IroquoisLax.html" id="navbardrop">
+                Iroquois Lax
+              </a>
+            </li>
 
-        </nav>
-      </div>
+          </ul>
+        </div>
+
+      </nav>
 
 
       <!-- Lacrosse Home Page Title -->
+      <h1>Welcome to Everything Lacrosse</h1>
 
-      <div>
-        <h1 id="homeStmt">Welcome to Everything Lacrosse</h1>
+      <!-- Card 0 - Iroquois Lacrosse -->
+
+      <div id="IroquoisBackground" class="row myCards">
+        <div class="col-12 col-md-8">
+          <a href="IroquoisLax.html" target="_self" title="Box Lacrossse Page">
+            <img style="float: left" class="img-fluid homeImages" src="https://i0.wp.com/iroquoisnationals.org/wp-content/uploads/2014/06/iroquois-logo7.png?ssl=1"
+            alt="Iroquois Lacrosse Logo" />
+          </a>
+        </div>
+        <div class="col-12 col-md-4 mt-auto mb-auto">
+          <h2 style="color:rgb(238,132,255);">Help Iroquois Lacrosse</h2>
+        </div>
       </div>
 
-
-      <!-- Card 1 - Field Lacrosse --> <!-- add margins later -->
-      <div class="row myCards">   <!-- get this cards class working -->
+      <!-- Card 1 - Field Lacrosse -->
+      <div class="row myCards">
         <div class="col-12 col-md-4 mt-auto mb-auto">
           <h2>Professional Field Lacrosse</h2>
         </div>
         <div class="col-12 col-md-8">
-          <img style="float: left" class="img-fluid homeImages" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Major_League_Lacrosse_logo.svg/1200px-Major_League_Lacrosse_logo.svg.png"
-          alt="MLL Logo" class="rounded" />
+          <a href="fieldLacrosse.html" target="_self" title="Field Lacrosse Page">
+            <img style="float: left" class="img-fluid homeImages" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Major_League_Lacrosse_logo.svg/1200px-Major_League_Lacrosse_logo.svg.png"
+            alt="MLL Logo" class="rounded" />
+          </a>
         </div>
       </div>
 
 
       <!-- Card 2 - Box Lacrosse -->
 
-      <div class="row myCards">  <!-- do I need to have the row class thingy that dr. j has ??????????????????????????????? -->
+      <div class="row myCards">
         <div class="col-12 col-md-8">
-          <img style="float: right" class="img-fluid homeImages" src="https://content.sportslogos.net/logos/25/1712/full/1807__national_lacrosse_league-primary-2017.png"
+          <a href="boxLacrosse.html" target="_self" title="Box Lacrossse Page">
+            <img style="float: right" class="img-fluid homeImages" src="https://content.sportslogos.net/logos/25/1712/full/1807__national_lacrosse_league-primary-2017.png"
             alt="Image of NLL Logo" />
+          </a>
         </div>
         <div class="col-12 col-md-4 mt-auto mb-auto">
           <h2>Professional Box Lacrosse</h2>
@@ -98,13 +124,15 @@
 
       <!-- Card 3 - Field Lacrosse -->
 
-      <div class="row myCards">   <!-- get this cards class working -->
+      <div class="row myCards">
         <div class="col-12 col-md-4 mt-auto mb-auto">
           <h2>History of Field Lacrosse</h2>
         </div>
         <div class="col-12 col-md-8">
-          <img style="float: left" class="img-fluid homeImages" src="https://www.uslaxmagazine.com/sites/default/files/images/articles/evolution-stick-vincent-ricasio-art-of-lax.jpg"
-          alt="Evolution of Lacorsse Sticks Image" class="rounded" />
+          <a href="fieldLacrosse.html" target="_self" title="Field Lacrosse Page">
+            <img style="float: left" class="img-fluid homeImages" src="https://www.uslaxmagazine.com/sites/default/files/images/articles/evolution-stick-vincent-ricasio-art-of-lax.jpg"
+            alt="Evolution of Lacorsse Sticks Image" class="rounded" />
+          <a/>
         </div>
       </div>
 
